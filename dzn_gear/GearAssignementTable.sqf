@@ -25,7 +25,7 @@ A "1'1 Squad Leader@1'1"			TO "kit_us_sl" KIT
 , A "AT Specialist"			TO "kit_us_at" KIT
 , A "AT Team Leader" TO "kit_us_atftl" KIT
 , A "Asst. AT Specialist" TO "kit_us_aat" KIT
-, A "1'6 %1Platoon Leader@1'6"		TO "kit_us_pl" KIT
+, A "1'6 Platoon Leader@1'6"		TO "kit_us_pl" KIT
 , A "Platoon Sergeant"			TO "kit_us_pl" KIT
 , A "Hammer Crew Commander@Hammer(M1A2)"		TO "kit_us_crew" KIT
 , A "Crew Gunner"				TO "kit_us_crew" KIT

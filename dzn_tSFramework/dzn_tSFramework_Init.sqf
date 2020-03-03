@@ -25,7 +25,7 @@ tSF_module_AirborneSupport = true;
 tSF_module_ArtillerySupport = true;
 
 tSF_module_EditorVehicleCrew = true;
-tSF_module_EditorUnitBehavior = true;
+tSF_module_EditorUnitBehavior = false;
 tSF_module_EditorRadioSettings = false;
 
 tSF_module_POM = true;

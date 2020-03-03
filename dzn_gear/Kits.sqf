@@ -41,7 +41,7 @@
 
 // ******** ASSIGNED and UNIFORM ITEMS MACRO ********
 #define NVG_NIGHT_ITEM		if (daytime < 9 || daytime > 18) then { "NVGoggles_OPFOR" } else { "" }
-#define BINOCULAR_ITEM		"Binocular"
+#define BINOCULAR_ITEM		"ACE_Vector"
 
 #define ASSIGNED_ITEMS		"ItemMap","ItemCompass","ItemWatch","ItemRadio", NVG_NIGHT_ITEM
 #define ASSIGNED_ITEMS_L	"ItemMap","ItemCompass","ItemWatch","ItemRadio", NVG_NIGHT_ITEM, BINOCULAR_ITEM 
@@ -82,7 +82,7 @@ kit_us_ftl = [
 ];
 kit_us_ar = [
 	["<EQUIPEMENT >>  ","rhs_uniform_cu_ocp","rhsusf_iotv_ocp_Grenadier","rhsusf_falconii_mc","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m249_pip_ris","rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",["","","CUP_optic_ElcanM145",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m249_pip_S","rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",["","","CUP_optic_ElcanM145",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -135,7 +135,7 @@ kit_us_amg = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_CompM4",""]],
 	["<LAUNCHER WEAPON >>  ","dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",3],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[["rhsusf_100Rnd_762x51",2]]]
@@ -165,7 +165,7 @@ kit_us_aat = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_CompM4",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_M9","CUP_15Rnd_9x19_M9",["","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",3],["HANDGUN MAG",3],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[["CUP_Javelin_M",1]]]
@@ -187,9 +187,9 @@ kit_us_cargo_car = [
 	[["rhsusf_falconii_mc",9]]
 ];
 kit_us_cargo_truck = [
-	[["CUP_lmg_M240",2],["dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry",4]],
+	[["rhs_weap_m240B",1],["dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry",4],["CUP_launch_FIM92Stinger_Loaded",1]],
 	[["rhs_mag_30Rnd_556x45_M855A1_Stanag",20],["rhs_mag_m18_red",5],["rhs_mag_an_m8hc",5],["CUP_Javelin_M",4],["rhsusf_100Rnd_762x51",20],["DemoCharge_Remote_Mag",2]],
-	[["FirstAidKit",5],["ACE_Clacker",3],["ACE_EntrenchingTool",9]],
+	[["FirstAidKit",5],["ACE_Clacker",3],["ACE_EntrenchingTool",5]],
 	[["B_Carryall_cbr",4],["rhsusf_assault_eagleaiii_ocp",4]]
 ];
 kit_ru_r = [

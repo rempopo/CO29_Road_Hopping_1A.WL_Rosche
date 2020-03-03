@@ -8,7 +8,7 @@ tSF_FARP_Refuel_Allowed			= true;
 tSF_FARP_Rearm_Allowed			= true;
 
 // Repair settings
-tSF_FARP_Repair_ProportionalMode	= true;	// Should repair time depeneds on damage or always same time
+tSF_FARP_Repair_ProportionalMode	= false;	// Should repair time depeneds on damage or always same time
 tSF_FARP_Repair_TimeMultiplier	= 10; 		// seconds per 1% if tSF_FARP_RepairProportionalMode is true; overall repair time on false
 tSF_FARP_Repair_ResoucesLevel	= -1; 	// limit of the repaired %; if negative - unlimited
 tSF_FARP_Repair_NonRepairable	= ["","hitwindshield_1","hitwindshield_2","HitGlass1","HitGlass2","HitGlass3","HitGlass4","HitGlass5","HitGlass6","HitBody","HitHull","HitRGlass","HitLGlass"];

@@ -14,7 +14,7 @@ tSF_AirborneSupport_initTimeout		= 5;
  */
 tSF_AirborneSupport_AuthorizedUsers	= [	
 	"Admin"
-	,"1'6 %1Platoon Leader@1'6"
+	,"1'6 Platoon Leader@1'6"
 	,"Platoon Sergeant"
 	,"1'1 Squad Leader@1'1"
 	,"1'2 Squad Leader@1'2"

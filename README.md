@@ -9,5 +9,5 @@
 # APPROVED
 | Reviewer | Result |
 | ------------ | ------------- |
-|  |  |
+| Сomrade | APPROVED |
 |  |  |

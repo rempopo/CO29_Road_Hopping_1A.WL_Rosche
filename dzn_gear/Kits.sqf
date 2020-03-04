@@ -52,7 +52,7 @@
 
 kit_us_pl = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Squadleader","tf_rt1523g","rhsusf_ach_helmet_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Top_Flashlight_Black_L","CUP_optic_ACOG2",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Top_Flashlight_Black_L","rhsusf_acc_ACOG",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -62,7 +62,7 @@ kit_us_pl = [
 ];
 kit_us_sl = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Squadleader","tf_rt1523g","rhsusf_ach_helmet_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Top_Flashlight_Black_L","CUP_optic_ACOG2",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Top_Flashlight_Black_L","rhsusf_acc_ACOG",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -72,7 +72,7 @@ kit_us_sl = [
 ];
 kit_us_ftl = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Teamleader","","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15","CUP_optic_ACOG2",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15","rhsusf_acc_ACOG",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -82,7 +82,7 @@ kit_us_ftl = [
 ];
 kit_us_ar = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Grenadier","rhsusf_falconii_mc","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m249_pip_S","rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",["","","CUP_optic_ElcanM145",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m249_pip_S","rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",["","","rhsusf_acc_ELCAN",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -92,7 +92,7 @@ kit_us_ar = [
 ];
 kit_us_gr = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Grenadier","","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15","CUP_optic_CompM4",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4_m320","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15","rhsusf_acc_compm4",""]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_M136_hedp","rhs_m136_hedp_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -102,7 +102,7 @@ kit_us_gr = [
 ];
 kit_us_r = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Rifleman","rhsusf_falconii_mc","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Top_Flashlight_Black_L","CUP_optic_CompM4",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Top_Flashlight_Black_L","rhsusf_acc_compm4",""]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_M136_hedp","rhs_m136_hedp_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -112,7 +112,7 @@ kit_us_r = [
 ];
 kit_us_mgftl = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Rifleman","rhsusf_assault_eagleaiii_ocp","rhsusf_ach_helmet_ESS_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","","CUP_optic_ACOG",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","","rhsusf_acc_ACOG",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_M9","CUP_15Rnd_9x19_M9",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -122,7 +122,7 @@ kit_us_mgftl = [
 ];
 kit_us_mg = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_spcs_ocp_machinegunner","rhsusf_assault_eagleaiii_ocp","rhsusf_ach_helmet_ESS_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m240B","rhsusf_100Rnd_762x51",["","","CUP_optic_ElcanM145",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m240B","rhsusf_100Rnd_762x51",["","","rhsusf_acc_ELCAN",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_M9","CUP_15Rnd_9x19_M9",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
@@ -132,7 +132,7 @@ kit_us_mg = [
 ];
 kit_us_amg = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Rifleman","rhsusf_assault_eagleaiii_ocp","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_CompM4",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","rhsusf_acc_compm4",""]],
 	["<LAUNCHER WEAPON >>  ","dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -142,7 +142,7 @@ kit_us_amg = [
 ];
 kit_us_atftl = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Rifleman","B_Carryall_cbr","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_CompM4",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","rhsusf_acc_compm4",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_M9","CUP_15Rnd_9x19_M9",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -152,7 +152,7 @@ kit_us_atftl = [
 ];
 kit_us_at = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Rifleman","B_Carryall_cbr","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_CompM4",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","rhsusf_acc_compm4",""]],
 	["<LAUNCHER WEAPON >>  ","CUP_launch_Javelin","CUP_Javelin_M",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_M9","CUP_15Rnd_9x19_M9",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -162,7 +162,7 @@ kit_us_at = [
 ];
 kit_us_aat = [
 	["<EQUIPEMENT >>  ","rhs_uniform_acu_oefcp","rhsusf_iotv_ocp_Rifleman","B_Carryall_cbr","rhsusf_ach_helmet_headset_ocp",""],
-	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_CompM4",""]],
+	["<PRIMARY WEAPON >>  ","rhs_weap_m4a1_carryhandle","rhs_mag_30Rnd_556x45_M855A1_Stanag",["","CUP_acc_ANPEQ_15_Flashlight_Tan_L","rhsusf_acc_compm4",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_M9","CUP_15Rnd_9x19_M9",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -187,11 +187,12 @@ kit_us_cargo_car = [
 	[["rhsusf_falconii_mc",9]]
 ];
 kit_us_cargo_truck = [
-	[["rhs_weap_m240B",1],["dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry",4],["CUP_launch_FIM92Stinger_Loaded",1]],
-	[["rhs_mag_30Rnd_556x45_M855A1_Stanag",20],["rhs_mag_m18_red",5],["rhs_mag_an_m8hc",5],["CUP_Javelin_M",4],["rhsusf_100Rnd_762x51",20],["DemoCharge_Remote_Mag",2]],
+	[["rhs_weap_m240B",1],["dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry",4],["rhs_weap_fim92",1]],
+	[["rhs_mag_30Rnd_556x45_M855A1_Stanag",20],["rhs_mag_m18_red",5],["rhs_mag_an_m8hc",5],["CUP_Javelin_M",4],["rhsusf_100Rnd_762x51",20],["DemoCharge_Remote_Mag",2],["rhs_fim92_mag",1]],
 	[["FirstAidKit",5],["ACE_Clacker",3],["ACE_EntrenchingTool",5]],
 	[["B_Carryall_cbr",4],["rhsusf_assault_eagleaiii_ocp",4]]
 ];
+
 kit_ru_r = [
 	["<EQUIPEMENT >>  ","rhs_uniform_emr_patchless","rhs_6b23_digi_6sh92","","rhs_6b7_1m_ess",""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AK74M","CUP_30Rnd_545x39_AK74M_M",["","","",""]],

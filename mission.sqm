@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=439;
+		nextID=456;
 	};
 	class Camera
 	{
-		pos[]={7513.8071,94.280258,5321.3066};
-		dir[]={-0.068932787,-0.22354135,0.97229362};
-		up[]={-0.015811801,0.9746846,0.22301558};
-		aside[]={0.99753928,-5.227048e-008,0.070720367};
+		pos[]={5371.1938,367.0415,5352.7676};
+		dir[]={-0.65693629,-0.50169277,0.56290054};
+		up[]={-0.38098565,0.86502928,0.32644919};
+		aside[]={0.65070742,7.7660661e-007,0.75940794};
 	};
 };
 binarizationWanted=0;
@@ -439,6 +439,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -484,25 +503,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -12404,7 +12404,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7848.2451,33.489304,5736.8408};
-				angles[]={-0,1.2166227,-0};
+				angles[]={0,1.2166227,0};
 			};
 			id=1613;
 			type="ModuleEffectsSmoke_F";
@@ -12947,7 +12947,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={6602.3452,18.475121,5367.4487};
-				angles[]={-0,0.97714955,0};
+				angles[]={0,0.97714955,0};
 			};
 			side="Empty";
 			flags=4;
@@ -13145,6 +13145,7 @@ class Mission
 			};
 			id=1622;
 			type="CUP_C_Golf4_white_Civ";
+			atlOffset=-0.078779221;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13185,6 +13186,7 @@ class Mission
 			};
 			id=1623;
 			type="C_Van_02_vehicle_F";
+			atlOffset=-0.0034656525;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13225,6 +13227,7 @@ class Mission
 			};
 			id=1624;
 			type="CUP_C_Golf4_random_Civ";
+			atlOffset=-0.00056648254;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13265,6 +13268,7 @@ class Mission
 			};
 			id=1625;
 			type="C_Tractor_01_F";
+			atlOffset=-0.0041007996;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13346,7 +13350,7 @@ class Mission
 			};
 			id=1627;
 			type="C_Tractor_01_F";
-			atlOffset=1.9073486e-006;
+			atlOffset=-3.0517578e-005;
 			class CustomAttributes
 			{
 				class Attribute0

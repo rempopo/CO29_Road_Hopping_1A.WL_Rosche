@@ -187,8 +187,8 @@ kit_us_cargo_car = [
 	[["rhsusf_falconii_mc",9]]
 ];
 kit_us_cargo_truck = [
-	[["rhs_weap_m240B",1],["dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry",4],["CUP_launch_FIM92Stinger_Loaded",1]],
-	[["rhs_mag_30Rnd_556x45_M855A1_Stanag",20],["rhs_mag_m18_red",5],["rhs_mag_an_m8hc",5],["CUP_Javelin_M",4],["rhsusf_100Rnd_762x51",20],["DemoCharge_Remote_Mag",2]],
+	[["rhs_weap_m240B",1],["dzn_MG_Tripod_M122A1_M240Mount_RHS_Carry",4],["rhs_weap_fim92",1]],
+	[["rhs_mag_30Rnd_556x45_M855A1_Stanag",20],["rhs_mag_m18_red",5],["rhs_mag_an_m8hc",5],["CUP_Javelin_M",4],["rhsusf_100Rnd_762x51",20],["DemoCharge_Remote_Mag",2],["rhs_fim92_mag",1]],
 	[["FirstAidKit",5],["ACE_Clacker",3],["ACE_EntrenchingTool",5]],
 	[["B_Carryall_cbr",4],["rhsusf_assault_eagleaiii_ocp",4]]
 ];
